@@ -24,10 +24,3 @@ st = Student.find_by_sql('
     parents ON parents.id = students.parent_id WHERE parents.name = "Марина"
     ')
 puts "Parent's name is Marina #{st.length}"
-
-
-
-# Student.columns.each { |column|
-#     puts column.name
-#     puts column.type
-#   }
